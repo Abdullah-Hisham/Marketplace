@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gs02=9oi7*x^6=c)dtg#wha=a&%+v_p=6-v!0*%^3vi9%ygt4z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Marketplace.wsgi.application'
+WSGI_APPLICATION = 'Marketplace.wsgi.app'
 
 
 # Database
